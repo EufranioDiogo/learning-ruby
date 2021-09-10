@@ -30,6 +30,15 @@ resultando em um output
 => 3º Lugar
 => 4º Lugar
 => 5º Lugar
-....
+...
 => 100º Lugar
 ```
+
+
+## Estruturas de controle ruby
+
+Esque a maneira normal em boa parte das linguagens de programação que existe, Ruby trabalha de uma forma diferente, pelo  menos foi para mim.
+
+Em ruby vc precisa de estar consciente que vais escrever a estrutura de controle que queres, no caso um if ou else if ou else ou um while, for e outras, depois de assim a ter colocado coloca as condições dentro delas e depois simplesmente de um enter e basicamente estás dentro do bloco, da tua função, ciclo ou estrutura de decisão.
+
+E não esquecer um detalhe importante que é o fechamento do bloco que é com a palavra reservada `end` que basicamente no meu caso eu associo com end de fechamento de bloco.
