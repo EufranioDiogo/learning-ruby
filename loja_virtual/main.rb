@@ -1,15 +1,13 @@
-require File.expand_path('lib/livro')
+require File.expand_path('lib/loja_virtual')
 
 
-poder_da_accao = Livro.new "O poder da Acção", 240, 9_000, 0, "Paulo Silveira"
+biblioteca = Biblioteca.new
 
-poder_da_accao = Livro.new "O poder da Acção", 240, 9_000, 0, "Paulo Silveira"
+poder_da_accao = Livro.new "O poder da Acção", 240, 9_000, 0, "Paulo Silveira", :auto_ajuda
+a_mulher_que_mais_amei = Livro.new "A mulher que mais amei", 180, 4_500, 1232, "Eufránio Diogo", :romance
 
-puts poder_da_accao
-#p poder_da_accao
+biblioteca.adiciona poder_da_accao
+biblioteca.adiciona a_mulher_que_mais_amei
 
-poder_da_accao.preco = 10;
+biblioteca.livros
 
-puts "Poder da Acção preço: #{poder_da_accao.preco}"
-
-puts poder_da_accao.object_id
